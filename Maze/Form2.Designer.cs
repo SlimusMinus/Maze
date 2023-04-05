@@ -84,6 +84,7 @@
             panel2.Name="panel2";
             panel2.Size=new Size(804, 456);
             panel2.TabIndex=5;
+            panel2.MouseEnter+=panel2_MouseEnter;
             // 
             // label18
             // 

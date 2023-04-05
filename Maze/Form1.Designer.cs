@@ -78,6 +78,7 @@
             panel1.Name="panel1";
             panel1.Size=new Size(804, 456);
             panel1.TabIndex=2;
+            panel1.MouseEnter+=panel1_MouseEnter;
             // 
             // label11
             // 

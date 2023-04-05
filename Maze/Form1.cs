@@ -35,5 +35,10 @@ namespace Maze
         {
             Cursor.Clip = Bounds;
         }
+
+        private void panel1_MouseEnter(object sender, EventArgs e)
+        {
+            Cursor.Clip = this.Bounds;
+        }
     }
 }

@@ -35,5 +35,10 @@ namespace Maze
         {
             Start_Form2();
         }
+
+        private void panel2_MouseEnter(object sender, EventArgs e)
+        {
+            Cursor.Clip = this.Bounds;
+        }
     }
 }
